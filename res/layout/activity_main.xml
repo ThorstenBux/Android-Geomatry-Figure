@@ -36,6 +36,13 @@
    				<ImageView 
 					android:layout_width="100dp"
 					android:layout_height="100dp"
+					android:src="@drawable/triangle"
+					android:layout_gravity="center_horizontal"
+					android:layout_marginTop="30dp"/>
+   				
+   				<ImageView 
+					android:layout_width="100dp"
+					android:layout_height="100dp"
 					android:src="@drawable/ring"
 					android:layout_gravity="center_horizontal"
 					android:layout_marginTop="30dp"/>
