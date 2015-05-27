@@ -8,16 +8,42 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 	
-	
-    <!-- image element -->
-    <ImageView 
-		android:id="@+id/drawer_image"
-		android:layout_width="100dp"
-		android:layout_height="100dp"
-		android:src="@drawable/circle"
-		android:layout_centerHorizontal="true"
-		android:layout_marginTop="30dp"/>
+	<ScrollView 
+	    android:id="@+id/scroll"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    
+	    <LinearLayout 
+	        android:id="@+id/scroll_linear"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical">
+	        
+	    	    <!-- image element -->
+			    <ImageView 
+					android:layout_width="100dp"
+					android:layout_height="100dp"
+					android:src="@drawable/circle"
+					android:layout_gravity="center_horizontal"
+					android:layout_marginTop="30dp"/>
+			    <ImageView 
+					android:layout_width="100dp"
+					android:layout_height="100dp"
+					android:src="@drawable/square"
+					android:layout_gravity="center_horizontal"
+					android:layout_marginTop="30dp"/>
 
+   				<ImageView 
+					android:layout_width="100dp"
+					android:layout_height="100dp"
+					android:src="@drawable/ring"
+					android:layout_gravity="center_horizontal"
+					android:layout_marginTop="30dp"/>
+
+   
+	        
+	    </LinearLayout>
+	</ScrollView>
    
 
 </RelativeLayout>
