@@ -12,7 +12,7 @@
             <shape 
 			    android:shape="line" >
 			    <stroke
-			        android:width="3dp"
+			        android:width="5dp"
 			        
 			        android:color="#000000">
 			        
@@ -30,7 +30,7 @@
             <shape 
 			    android:shape="line" >
 			    <stroke
-			        android:width="3dp"
+			        android:width="5dp"
 			        android:color="#000000">
 			        
 			    </stroke>
@@ -47,7 +47,7 @@
             <shape 
 			    android:shape="line" >
 			    <stroke
-			        android:width="3dp"
+			        android:width="5dp"
 			        android:color="#000000">
 			        
 			    </stroke>
